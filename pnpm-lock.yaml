@@ -26,7 +26,7 @@ specifiers:
   eslint: ^8.2.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-angular: 4.1.0
-  eslint-plugin-import: 2.25.2
+  eslint-plugin-import: 2.25.4
   eslint-plugin-jsdoc: 36.1.0
   eslint-plugin-prefer-arrow: 1.2.3
   eslint-plugin-prettier: 4.0.0
@@ -79,7 +79,7 @@ devDependencies:
   eslint: 8.4.1
   eslint-config-prettier: 8.3.0_eslint@8.4.1
   eslint-plugin-angular: 4.1.0
-  eslint-plugin-import: 2.25.2_eslint@8.4.1
+  eslint-plugin-import: 2.25.4_eslint@8.4.1
   eslint-plugin-jsdoc: 36.1.0_eslint@8.4.1
   eslint-plugin-prefer-arrow: 1.2.3_eslint@8.4.1
   eslint-plugin-prettier: 4.0.0_403248dd6a502b5252ed15a33aa51139
@@ -4173,21 +4173,20 @@ packages:
       resolve: 1.20.0
     dev: true
 
-  /eslint-module-utils/2.7.1:
-    resolution: {integrity: sha512-fjoetBXQZq2tSTWZ9yWVl2KuFrTZZH3V+9iD1V1RfpDgxzJR+mPd/KZmMiA8gbPqdBzpNiEHOuT7IYEWxrH0zQ==}
+  /eslint-module-utils/2.7.2:
+    resolution: {integrity: sha512-zquepFnWCY2ISMFwD/DqzaM++H+7PDzOpUvotJWm/y1BAFt5R4oeULgdrTejKqLkz7MA/tgstsUMNYc7wNdTrg==}
     engines: {node: '>=4'}
     dependencies:
       debug: 3.2.7
       find-up: 2.1.0
-      pkg-dir: 2.0.0
     dev: true
 
   /eslint-plugin-angular/4.1.0:
     resolution: {integrity: sha512-dacledMPxVOZA3T0xcYFuvrMCy5dHxg0ZTMWUaHqSBQef3/XLyXJ9s1LNj0NikJ/dYx6OhqlnnNpKmrJhEUB+Q==}
     dev: true
 
-  /eslint-plugin-import/2.25.2_eslint@8.4.1:
-    resolution: {integrity: sha512-qCwQr9TYfoBHOFcVGKY9C9unq05uOxxdklmBXLVvcwo68y5Hta6/GzCZEMx2zQiu0woKNEER0LE7ZgaOfBU14g==}
+  /eslint-plugin-import/2.25.4_eslint@8.4.1:
+    resolution: {integrity: sha512-/KJBASVFxpu0xg1kIBn9AUa8hQVnszpwgE7Ld0lKAlx7Ie87yzEzCgSkekt+le/YVhiaosO4Y14GDAOc41nfxA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
@@ -4198,7 +4197,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.4.1
       eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.1
+      eslint-module-utils: 2.7.2
       has: 1.0.3
       is-core-module: 2.8.0
       is-glob: 4.0.3
@@ -6746,13 +6745,6 @@ packages:
       hdr-histogram-percentiles-obj: 3.0.0
     optionalDependencies:
       nice-napi: 1.0.2
-    dev: true
-
-  /pkg-dir/2.0.0:
-    resolution: {integrity: sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=}
-    engines: {node: '>=4'}
-    dependencies:
-      find-up: 2.1.0
     dev: true
 
   /pkg-dir/4.2.0:
